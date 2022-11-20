@@ -1,0 +1,335 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.my-nav .my-brand {
+    padding-top: 10px;
+    color: black;
+    font-weight: 600;
+    margin-left: 100px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.my-ul {
+    margin-left: 60%;
+}
+
+.my-nav .my-ul .my-li {
+    margin-top: -50px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.my-nav .my-ul .my-li a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.content-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 80vh;
+    overflow: none;
+    flex-direction: row;
+}
+
+.content-header div {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.content-header .content-one h3 {
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+    margin-top: -100px;
+}
+
+.content-header .btn-order-now {
+    display: flex;
+    background-color: rgb(128, 223, 191);
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+    width: 50%;
+    padding-left: 21%;
+    margin: 50px;
+}
+
+.main-content  h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.main-content p {
+    line-height: 25px;
+}
+
+.main-content-second {
+    text-align: center;
+    background-color: aqua;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main-content-second h3 {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.grid-content-second {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+}
+
+.grid-content-second img {
+    width: 150px;
+    height: 150px;
+}
+
+.grid-content-second h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grid-content-second a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FFBF69;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.main-content-third {
+    background-image: url('images/bg-grid.png');
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+.main-content-third h3 {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.grid-content-third {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+}
+
+.grid-content-third h3 {
+    margin-bottom: 20px;
+}
+
+.grid-content-third p {
+    font-weight: 200;
+}
+.grid-content-third img {
+    width: 300px;
+    height: 300px;
+    padding-right: 100px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: grey;
+    padding: 30px;
+}
+
+footer div ul li {
+    display: inline-block;
+    margin-right: 190px;
+}
+
+footer div ul .active {
+    color: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-image: url('images/background.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 30px;
+    }
+
+    .my-nav .my-brand {
+        padding-top: 10px;
+        color: black;
+        font-weight: 600;
+        margin-left: -50px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .my-nav .my-ul .my-li {
+        margin-top: -50px;
+        list-style-type: none;
+        display: inline-block;
+       
+    }
+    
+    .my-nav .my-ul .my-li a {
+        color: black;
+        display: none;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .content-header {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        height: 80vh;
+        overflow: none;
+        flex-direction: row;
+    }
+    
+    .content-header div {
+        margin-top: 200px;
+        margin-left: -50px;
+    }
+    
+    .content-header .content-one h3 {
+        font-size: 80px;
+        font-weight: 900;
+        color: white;
+        margin-top: -100px;
+    }
+    
+    .content-header .content-one p {
+        width: 70%;
+    }
+
+    .content-header .btn-order-now {
+        display: flex;
+        background-color: rgb(128, 223, 191);
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        width: 30%;
+        border-radius: 10px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .main-content {
+        text-align: center;
+        width: 80%;
+        padding-left: 0%;
+        margin: 50px;
+       
+    }
+    
+    .main-content  h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .main-content p {
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .grid-content-second {
+        display: inline-block;
+    }
+
+    .grid-content-second a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #FFBF69;
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    .main-content-third {
+        background-image: url('images/bg-grid.png');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 100px;
+        
+    }
+
+    .main-content-third h3 {
+        font-weight: 900;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .grid-content-third p {
+        font-weight: 200;
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .grid-content-third img {
+        width: 150px;
+        height: 150px;
+        padding-right: 0px;
+    }
+
+    footer {
+        margin-top: 50px;
+        background-color: grey;
+        padding: 30px;
+
+    }
+
+    footer div ul li {
+        display: inline-block;
+        margin-top: 20px;
+    }
+  }
